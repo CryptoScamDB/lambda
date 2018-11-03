@@ -1,0 +1,21 @@
+{
+  "name": "@cryptoscamdb/lambda",
+  "version": "0.1.0",
+  "description": "An AWS Lambda script for uploading the blacklist and whitelist to our CDN",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryptoScamDB/lambda.git"
+  },
+  "author": "Luit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CryptoScamDB/lambda/issues"
+  },
+  "homepage": "https://github.com/CryptoScamDB/lambda#readme",
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
